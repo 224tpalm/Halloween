@@ -1,0 +1,49 @@
+body{
+  background-image: url("img/0037865c-90cb-46a3-903e-2d63d8fa7dd2.jpeg");
+}
+
+h2{
+  text-align: center;
+  color: white;
+  background-color:black;
+}
+
+h1{
+  text-align: center;
+  color: orange;
+  background-color:black;
+}
+
+.pumpkin:hover {
+  filter: contrast(930%);
+  transform: scale(1);
+}
+
+.clown:hover {
+  filter: blur(10px);
+}
+
+table {
+  color: orange;
+  width: 100%;
+  font-family: georgia;
+  background-color: black;
+}
+
+th,td {
+    border: 1px solid white;
+}
+ul {
+  text-align: left;
+  font-family: Times;
+  color: white;
+  background-color: black;
+}
+
+.carve {
+  border-radius: 50%;
+}
+
+.carve,.clown,.pumpkin {
+text-align: center;
+}
